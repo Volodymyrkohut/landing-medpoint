@@ -1,0 +1,92 @@
+{% extends '_layouts/base.nunjucks' %}
+
+{% import "_modules/link/link.nunjucks" as link %}
+
+{% block content %}
+<main>
+  <div class="container">
+   <section class="tool">
+     <h3 class="tool__header">Самое современное оборудование</h3>
+     <ul class="tool__list">
+       <li>-Наше оснащение позволяет сопровождать пациентов в крайне тяжелых сосотояних а так же новорожденых и грудных детей</li>
+       <li>- Врачи и парамедики мирового уровня с подтвержденным международным опытом</li>
+     </ul>
+   </section>
+
+
+    <div class="owl-carousel">
+      <div class="owl-carousel__item"><div class="owl-carousel__img" style="background-image: url('images/tools/1585175_orig.png')"></div></div>
+      <div class="owl-carousel__item"><div class="owl-carousel__img" style="background-image: url('images/tools/1503638415.jpg')"></div></div>
+      <div class="owl-carousel__item"><div class="owl-carousel__img" style="background-image: url('images/tools/AeroMedEvac_Learjet_KingAir_AirAmbulance_MedicalEquipment-9852s-870x580.jpg')" ></div></div>
+      <div class="owl-carousel__item"><div class="owl-carousel__img" style="background-image: url('images/tools/health-problems.jpg')" ></div></div>
+      <div class="owl-carousel__item"><div class="owl-carousel__img" style="background-image: url('images/tools/s2_1402240360.jpg')" ></div></div>
+        <div class="owl-carousel__item"><div class="owl-carousel__img" style="background-image: url('images/tools/s2_1420475730.jpg')"></div></div>
+    </div>
+
+    <section class="tool">
+      <h3 class="tool__header">Полномасштабные мединцкие решения от точки до точки</h3>
+      <ul class="tool__list">
+        <li>- Договорености с наземными службами и больницами</li>
+        <li>-  Координация действий всех задействованных служб</li>
+        <li>- Консультации лучших  узкопрофильных специалистов по всему миру</li>
+      </ul>
+    </section>
+  </div>
+
+  <!--without wrapper-->
+  <section class="background-section">
+    <div class="backgroun-img" style="background-image: url('images/backgrounds/cloud_airplane_plane_sunset_sunrise-107966.jpg')"></div>
+    <div class="background-text">
+      <h1 class="background__title"> Lorem Ipsum, но большинство из</h1>
+      <p class="background__description">них имеет не всегда приемлемые модификации, например, юмористические вставки или слова, которые даже отдалённо не напоминают латынь. Если вам нужен Lorem Ipsum для серьёзного проекта, вы наверняка не хотите какой-нибудь шутки, скрытой в середине абзаца. Также все другие известные генераторы Lorem Ips</p>
+    </div>
+  </section>
+
+  <div class="container">
+    <section class="form-container">
+      <form>
+        <div class="input-group">
+          <label class="main-label">Вoзраст</label>
+          <div class="input-row">
+            <input type="text" placeholder="">
+          </div>
+        </div>
+
+        <div class="input-group">
+          <label class="main-label">Пол</label>
+          <div class="input-row">
+            <label>мужской</label>
+            <input type="radio" name="group-1" class="input-col" checked>
+            <label>женский</label>
+            <input type="radio" name="group-1" class="input-col">
+          </div>
+        </div>
+
+        <div class="input-group">
+          <label class="main-label">Усыплен</label>
+          <div class="input-row">
+            <div>
+              <label>да</label>
+              <input type="radio" name="group-2" class="input-col" checked>
+            </div>
+            <div>
+              <label>Нет</label>
+              <input type="radio" name="group-2" class="input-col">
+            </div>
+
+          </div>
+        </div>
+
+          <div class="input-group">
+            <label class="main-label">Масса Тела</label>
+            <div class="input-row">
+              <input type="text" placeholder="">
+            </div>
+        </div>
+      </form>
+    </section>
+  </div>
+
+</main>
+
+{% endblock %}
