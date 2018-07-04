@@ -184,75 +184,17 @@
     </div>
   </section>
 
-  <div class="container">
-    
-      
-        
-          
-          
-            
-          
-        
-
-        
-          
-          
-            
-              
-              
-            
-            
-              
-              
-            
-          
-        
-
-        
-          
-          
-            
-              
-              
-            
-            
-              
-              
-            
-
-          
-        
-
-          
-            
-            
-              
-            
-        
-      
-    
-  </div>
 
   <section class="section-card">
-
-
     <ul class="cd-pricing">
       <li>
         <header class="cd-pricing-header">
-          <h2>Basic</h2>
-
-          <div class="cd-price">
-            <span>$9.99</span>
-            <span>month</span>
-          </div>
+          <h2 style="font-size: 16px;">Мед.сопровождение </h2>
         </header> <!-- .cd-pricing-header -->
 
         <div class="cd-pricing-features">
           <ul>
-            <li class="available"><em>Feature 1</em></li>
-            <li><em>Feature 2</em></li>
-            <li><em>Feature 3</em></li>
-            <li><em>Feature 4</em></li>
+              <li style="font-size: 16px; height: 100px; max-width: 100px; text-align: center; margin:0 auto; position: relative;">онкобольного в тяжелом состоянии. </li>
           </ul>
         </div> <!-- .cd-pricing-features -->
 
@@ -263,20 +205,12 @@
 
       <li>
         <header class="cd-pricing-header">
-          <h2>Popular</h2>
-
-          <div class="cd-price">
-            <span>$19.99</span>
-            <span>month</span>
-          </div>
+          <h2 style="font-size: 16px;">Мед.сопровождение </h2>
         </header> <!-- .cd-pricing-header -->
 
         <div class="cd-pricing-features">
           <ul>
-            <li class="available"><em>Feature 1</em></li>
-            <li class="available"><em>Feature 2</em></li>
-            <li><em>Feature 3</em></li>
-            <li><em>Feature 4</em></li>
+              <li style="font-size: 16px; height: 100px; max-width: 100px; text-align: center; margin:0 auto; position: relative;">после аварий и несчастных случаев </li>
           </ul>
         </div> <!-- .cd-pricing-features -->
 
@@ -287,21 +221,15 @@
 
       <li>
         <header class="cd-pricing-header">
-          <h2>Premier</h2>
-
-          <div class="cd-price">
-            <span>$29.99</span>
-            <span>month</span>
-          </div>
+          <h2 style="font-size: 16px;">Мед.сопровождение </h2>
         </header> <!-- .cd-pricing-header -->
 
         <div class="cd-pricing-features">
-          <ul>
-            <li class="available"><em>Feature 1</em></li>
-            <li class="available"><em>Feature 2</em></li>
-            <li class="available"><em>Feature 3</em></li>
-            <li class="available"><em>Feature 4</em></li>
-          </ul>
+
+            <ul>
+                <li style="font-size: 16px; height: 100px; max-width: 100px; text-align: center; margin:0 auto;position: relative;">детей и грудничков </li>
+            </ul>
+
         </div> <!-- .cd-pricing-features -->
 
         <footer class="cd-pricing-footer">
@@ -317,98 +245,49 @@
       </div>
 
       <div class="cd-more-info">
-        <h4>Need help?</h4>
+        <h4>Потрібна допомога?</h4>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
       </div>
 
       <form action="">
         <fieldset>
-          <legend>Account Info</legend>
+          <legend>Ваші дані</legend>
 
-          <div class="half-width">
-            <label for="userName">Name</label>
+          <div style="display: flex; flex-direction: column; margin-bottom: 15px;">
+            <label for="userName" style="margin-bottom: 5px;">Имя для связи</label>
             <input id="userName" name="userName">
           </div>
 
-          <div class="half-width">
-            <label for="userEmail">Email</label>
-            <input type="email" id="userEmail" name="userEmail">
+          <div style="display: flex; flex-direction: column;  margin-bottom: 15px;">
+            <label for="phone" style="margin-bottom: 5px;">Телефон</label>
+            <input type="tel" id="phone" name="phone">
           </div>
 
-          <div class="half-width">
-            <label for="userPassword">Password</label>
-            <input type="password" id="userPassword" name="userPassword">
+          <div style="display: flex; flex-direction: column;  margin-bottom: 15px;">
+            <label for="cityLive" style="margin-bottom: 5px;">Город отправления</label>
+            <input id="cityLive" name="cityLive">
           </div>
 
-          <div class="half-width">
-            <label for="userPasswordRepeat">Repeat Password</label>
-            <input type="password" id="userPasswordRepeat" name="userPasswordRepeat">
-          </div>
-        </fieldset>
-
-        <fieldset>
-          <legend>Payment Method</legend>
-
-          <div>
-            <ul class="cd-payment-gateways">
-              <li>
-                <input type="radio" name="payment-method" id="paypal" value="paypal">
-                <label for="paypal">Paypal</label>
-              </li>
-
-              <li>
-                <input type="radio" name="payment-method" id="card" value="card" checked>
-                <label for="card">Card</label>
-              </li>
-            </ul> <!-- .cd-payment-gateways -->
+          <div style="display: flex; flex-direction: column;  margin-bottom: 15px;">
+            <label for="cityArrive" style="margin-bottom: 5px;">Город направления</label>
+            <input id="cityArrive" name="cityArrive">
           </div>
 
-          <div class="cd-credit-card">
-            <div>
-              <p class="half-width">
-                <label for="cardNumber">Card Number</label>
-                <input id="cardNumber" name="cardNumber">
-              </p>
-
-              <p class="half-width">
-                <label>Expiration date</label>
-                <b>
-								<span class="cd-select">
-									<select name="card-expiry-month" id="card-expiry-month">
-										<option value="1">1</option>
-										<option value="1">2</option>
-										<option value="1">3</option>
-										<option value="1">4</option>
-										<option value="1">5</option>
-										<option value="1">6</option>
-										<option value="1">7</option>
-										<option value="1">8</option>
-										<option value="1">9</option>
-										<option value="1">10</option>
-										<option value="1">11</option>
-										<option value="1">12</option>
-									</select>
-								</span>
-
-                  <span class="cd-select">
-									<select name="card-expiry-year" id="card-expiry-year">
-										<option value="2015">2015</option>
-										<option value="2015">2016</option>
-										<option value="2015">2017</option>
-										<option value="2015">2018</option>
-										<option value="2015">2019</option>
-										<option value="2015">2020</option>
-									</select>
-								</span>
-                </b>
-              </p>
-
-              <p class="half-width">
-                <label for="cardCvc">Card CVC</label>
-                <input id="cardCvc" name="cardCvc">
-              </p>
+            <div style="display: flex; flex-direction: column;  margin-bottom: 15px;">
+                <label for="age" style="margin-bottom: 5px;">Возраст</label>
+                <input type="number" id="age" name="age">
             </div>
-          </div> <!-- .cd-credit-card -->
+
+            <div style="display: flex; flex-direction: column;  margin-bottom: 15px;">
+                <label for="kg" style="margin-bottom: 5px;">Вес</label>
+                <input type="number" id="kg" name="kg">
+            </div>
+
+            <div style="display: flex; flex-direction: column;  margin-bottom: 15px;">
+                <label for="height" style="margin-bottom: 5px;">Рост</label>
+                <input type="number" id="height" name="height">
+            </div>
+
         </fieldset>
 
         <fieldset>
