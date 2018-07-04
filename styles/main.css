@@ -482,6 +482,7 @@ main .tool {
 }
 
 main .tool .tool__header {
+  margin-top: 40px;
   font-size: 26px;
   color: #333;
 }
@@ -542,6 +543,14 @@ main .owl-carousel .owl-dots .owl-dot.active {
   background-color: red;
 }
 
+main .section-title {
+  font-size: 26px;
+  margin-bottom: 40px;
+  margin-top: 40px;
+  color: #333;
+  text-align: center;
+}
+
 main .background-section {
   position: relative;
   margin-top: 40px;
@@ -591,11 +600,11 @@ main .background-section .background-text {
 }
 
 main .background-section .background-text .background__title {
-  font-size: 30px;
+  font-size: 36px;
 }
 
 main .background-section .background-text .background__description {
-  font-size: 18px;
+  font-size: 24px;
   max-width: 1024px;
 }
 
@@ -985,6 +994,19 @@ main .form-container .input-group .input-row {
   background-color: transparent;
   color: white;
   border-radius: 4px;
+}
+
+.section-card {
+  height: 800px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 /*# sourceMappingURL=main.css.map */

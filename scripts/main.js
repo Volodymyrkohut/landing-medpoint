@@ -10282,7 +10282,6 @@ module.exports = exports['default'];
 
 },{"jquery":1}],4:[function(require,module,exports){
 'use strict';
-
 // import $ from 'jquery';
 
 var _link = require('../_modules/link/link');
